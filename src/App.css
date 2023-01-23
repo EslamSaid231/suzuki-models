@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+.Form {
+  width: 35%;
+  margin: auto;
+  margin-top: 11%;
+
+  background-color: rgb(80, 73, 80);
+  border: none;
+  border-radius: 20px;
+  padding: 20px 20px;
+  color: white;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
