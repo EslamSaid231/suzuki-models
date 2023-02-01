@@ -1,0 +1,167 @@
+.logo {
+  width: 200px;
+  height: 100px;
+}
+.links {
+  display: block;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.link-1 {
+  padding: 10px 20px;
+  margin: -15px 2px 0;
+  font-size: 11px;
+  text-decoration: none;
+  color: gray;
+  font-weight: 450;
+}
+.links1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.links2 {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  right: 470px;
+}
+.link-2 {
+  padding: 3px 25px;
+  margin: 0 2px;
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.link-1-1 {
+  padding: 15px 30px;
+  margin: -15px 10px 0;
+  background-color: gray;
+  width: 160px;
+
+  text-align: center;
+  text-justify: auto;
+  font-size: 11px;
+  position: relative;
+  left: 10px;
+  border: none;
+  color: white;
+  border-radius: 0;
+  text-decoration: none;
+  transition: 0.5s all ease;
+}
+.link-1-1:hover {
+  background-color: black;
+  color: white;
+}
+.global-icon {
+  width: 20px;
+  height: 22px;
+  margin-right: 5px;
+}
+.hrlinks {
+  position: relative;
+  right: 500px;
+  width: 150%;
+  bottom: 17px;
+}
+.link-2-models {
+  padding: 3px 25px;
+  margin: 0 2px;
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+.dropdown-menu {
+  display: flex;
+  position: absolute;
+  left: -60px;
+  margin-top: 7px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1300px;
+  justify-content: center;
+  align-content: center;
+  height: 0;
+  overflow: clip;
+  border: solid black 2px;
+  visibility: hidden;
+  transition: 0.3s all ease-out;
+  box-shadow: 0 0 2px 0 black;
+}
+.link-2-models:hover .dropdown-menu {
+  transition: 1s all ease;
+  visibility: visible;
+  height: 550px;
+
+  display: flex;
+  background-color: rgb(223, 218, 218);
+}
+
+.models-clip {
+  display: flex;
+  justify-content: center;
+
+  align-content: center;
+}
+.dropdown-menu .models {
+  margin: auto;
+  margin-left: 5%;
+  display: flex;
+
+  justify-content: flex-start;
+  align-content: center;
+
+  background-color: rgb(223, 218, 218);
+  overflow: clip;
+  box-sizing: content-box;
+  text-decoration: none;
+}
+.dropdown-menu .clip {
+  margin: 10px;
+  width: fit-content;
+  height: 150px;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+.dropdown-menu .clip .car-list {
+  text-decoration: none;
+}
+.car-list p {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding-top: 3.5px;
+}
+.dropdown-menu .car-list li {
+  display: block;
+  list-style: none;
+  height: 120px;
+  justify-content: center;
+  align-content: center;
+}
+
+.dropdown-menu .car-img {
+  height: 110px;
+  width: 125px;
+}
+.dropdown-menu p {
+  height: fit-content;
+}
+.clip:hover {
+  transition: 0.5s all ease;
+  background-color: rgb(51, 50, 50);
+}
+.clip:hover p {
+  color: white;
+}
+.link-2-models:hover {
+  transition: 0.5s;
+  box-shadow: 0 3px 0;
+}

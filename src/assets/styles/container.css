@@ -1,0 +1,29 @@
+.more-margin {
+  margin-top: 50px;
+  text-align: center;
+  height: 100px;
+}
+.More {
+  position: relative;
+  text-decoration: none;
+  height: 60px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+  background-image: url(../assets/res/arrow.png);
+  background-repeat: no-repeat;
+  background-position-x: 180px;
+  background-position-y: center;
+  background-size: 4%;
+}
+
+.More:hover {
+  color: grey;
+  border: 2px solid black;
+}
+
+.More:hover span {
+  transition: 0.5s all ease;
+}

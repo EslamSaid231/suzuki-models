@@ -1,0 +1,45 @@
+.models {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  overflow: clip;
+  box-sizing: content-box;
+}
+.clip {
+  width: 249px;
+  height: 200px;
+  margin: 2px;
+}
+.car-list {
+  display: block;
+  width: fit-content;
+  height: fit-content;
+}
+.car-list li {
+  list-style: none;
+  height: 200px;
+}
+.car-img {
+  height: 200px;
+  width: 249px;
+}
+.car-logo {
+  width: 249px;
+  position: relative;
+  bottom: 200px;
+
+  padding: 85px 20px;
+  clip: auto;
+  overflow: auto;
+  overflow-clip-margin: content-box;
+  position: relative;
+  height: 100%;
+  margin: 2px;
+  right: 1px;
+  visibility: hidden;
+}
+.car-list:hover .car-logo {
+  transition: 0.3s all ease;
+  visibility: visible;
+  background-color: rgba(0, 0, 0, 0.6);
+}
